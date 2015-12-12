@@ -1,12 +1,8 @@
-# Ghostwriter
+# Ghostwriter fork
 
 Ghostwriter is a simple AJAX driven theme for the [Ghost](http://github.com/tryghost/ghost/) blogging platform released under the MIT License.
 
 **[View a demo of Ghostwriter](http://ghost.jollygoodthemes.com/ghostwriter/)**
-
-**[Download Ghostwriter](https://github.com/roryg/ghostwriter/archive/master.zip)**
-
-**[See more of my themes](http://jollygoodthemes.com)**
 
 ### Features
 
@@ -19,11 +15,10 @@ Ghostwriter is a simple AJAX driven theme for the [Ghost](http://github.com/tryg
 * Featured post support.
 * A bunch of other bits and bobs.
 
-### Troubleshooting
+### Adjustments
 
-###### The Browse Posts link isn't working
-
-If you're having trouble with the browse posts link not working make sure you're using the currect URL for your environment in your Ghost config.js file. I.e. if your Ghost site is being served on http://your-site-name.com make sure you use exactly that URL in your config.js file and not for example http://www.your-site-name.com
+* CSS changes
+* Homepage is usable paginated list of posts
 
 ### Screenshot
 

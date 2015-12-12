@@ -1,12 +1,12 @@
 {{!< default}}
 
 <div id="latest-post" class="container">
-    {{#foreach posts}}
-        {{#if @first}}
-{{! No indention to prevent handlebars indenting <pre> tag content}}   
-{{> post-content}}
-        {{/if}}
-    {{/foreach}}
+<main id="content" class="content" role="main">
+
+    {{! The tag below includes the post loop - partials/loop.hbs }}
+    {{> "loop"}}
+
+</main>
 </div>
 
 <div id="post-index" class="container">
